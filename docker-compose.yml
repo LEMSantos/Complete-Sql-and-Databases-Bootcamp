@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres:latest
+    env_file:
+      - .env
+
+
+  adminer:
+    image: adminer:latest
+    env_file:
+      - .env
+    ports:
+      - 8085:8080
