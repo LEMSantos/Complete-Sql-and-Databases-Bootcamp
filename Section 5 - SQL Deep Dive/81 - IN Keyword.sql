@@ -1,0 +1,2 @@
+SELECT * FROM "employees"
+WHERE emp_no IN (100001, 100006, 11008);
