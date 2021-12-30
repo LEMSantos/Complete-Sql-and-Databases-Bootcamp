@@ -1,0 +1,1 @@
+SELECT AGE(date '1995-09-24');
